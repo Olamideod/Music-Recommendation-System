@@ -85,7 +85,27 @@ def token(txt):
     return " ".join(stemmed_tokens)
 
 # Apply tokenization to the 'text' column
-df['text'] = df['text'].apply(lambda x: token(x))
+df['text'] = df['text'].apply(lambda x: token(x)).
+
+
+
+
+2. **Running the App:**
+   - Run the Streamlit app:
+     ```
+     streamlit run app.py
+     ```
+   - The app will open in your default web browser.
+
+3. **Selecting a Song:**
+   - Use the dropdown menu to select a song from the available options.
+
+4. **Viewing Recommendations:**
+   - After selecting a song, click the "Show Recommendation" button to view recommended songs based on similarity.
+
+## Preview Image
+
+[![Streamlit Preview image](streamlit_example.png)](https://i.ibb.co/sR187KH/Recommendation-System-cover.jpg)
 
 
 
