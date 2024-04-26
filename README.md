@@ -105,7 +105,7 @@ df['text'] = df['text'].apply(lambda x: token(x)).
 
 ## Preview Image
 
-[![Streamlit Preview image](streamlit_example.png)](https://i.ibb.co/sR187KH/Recommendation-System-cover.jpg)
+![Music Recommendation image](https://i.ibb.co/sR187KH/Recommendation-System-cover.jpg)
 
 
 
